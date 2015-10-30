@@ -1,0 +1,36 @@
+{
+	"imgQual": "65-80",
+
+	"parentFiles": {
+		"name": "nameOfOutputParent",
+		"srcCss": [
+			"/parent/**/_css/css_parent.css"
+		],
+		"srcJS": [
+		  "/parent/**/_js/js_loader_itv.js",
+		  "/parent/**/_js/js_parent.js"
+		],
+		"manualCopy": [
+			"/parent/**/manifest.js"
+		]
+	},
+
+	"childFiles": {
+		"name": "nameOfOutputChild",
+		"srcCss": [
+			"/richLoads/**/_css/css_vid.css",
+			"/richLoads/**/_css/css_adMain.css"
+		],
+		"srcJS": [
+		  "/richLoads/**/_js/lib/js_superTween.min.js",
+		  "/richLoads/**/_js/js_ftVid.js",
+		  "/richLoads/**/_js/js_dateLogic.js",
+		  "/richLoads/**/_js/js_utils.js",
+		  "/richLoads/**/_js/js_timeline.js",
+		  "/richLoads/**/_js/js_adMain.js"
+		],
+		"manualCopy": [
+
+		]
+	}
+}

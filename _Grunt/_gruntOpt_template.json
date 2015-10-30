@@ -1,0 +1,18 @@
+{
+	"htmlName": "endHTMLName",
+	"zipName": "endZipName",
+	"imgQual": "65-80",
+	"srcCss": [
+		"/src/css/css_adMain.css"
+	],
+	"srcJS": [
+	  "/src/js/js_timeline.js",
+	  "/src/js/js_utils.js",
+	  "/src/js/js_superTween.js",
+	  "/src/js/js_dateLogic.js",
+	  "/src/js/js_adMain.js"
+	],
+	"manualCopy": [
+
+	]
+}
