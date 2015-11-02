@@ -316,12 +316,12 @@ module.exports = function(grunt) {
 					files: [{
 							expand: true,
 							flatten: false,
-							cwd: tempLoc,
+							cwd: tempLoc+"/parent/",
 							src: [
-								'parent/**.**',
-								'parent/**/**.**'
+								'**.**',
+								'**/**.**'
 							],
-							dest: "/"
+							dest: "../"
 						}]
 				},
 				child: {
@@ -332,10 +332,10 @@ module.exports = function(grunt) {
 					files: [{
 							expand: true,
 							flatten: false,
-							cwd: tempLoc,
+							cwd: tempLoc+"/child/",
 							src: [
-								'child/**.**',
-								'child/**/**.**'
+								'**.**',
+								'**/**.**'
 							],
 							dest: "/"
 						}]
