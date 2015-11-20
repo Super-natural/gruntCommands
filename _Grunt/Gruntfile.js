@@ -1,6 +1,7 @@
 /******************************************
  *
  *	MASTER GRUNT SCRIPT
+ * 	version 0.0.1 created 20/11/15
  *
  *	Open terminal at this file and type:
  *		grunt supply --src=../Folder/Containing/_gruntOpt.json (ie: ../Multi/970x250_v2)
