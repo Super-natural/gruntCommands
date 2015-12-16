@@ -1,0 +1,35 @@
+{
+	"htmlName": "itv_nudgeQ12016_jericho_970x250_tvGuide",
+	"zipName": "itv_nudgeQ12016_jericho_970x250_tvGuide",
+	"adServer": "Flashtalking",
+
+	"parentFiles": {
+		"srcCss": [
+			"_css/css_parent.css"
+		],
+		"srcJS": [
+		  "_js/js_loader_itv.js",
+		  "_js/js_parent.js"
+		],
+		"manualCopy": [
+			"manifest.js"
+		]
+	},
+
+	"childFiles": {
+		"srcCss": [
+			"_css/css_adMain.css",
+			"_css/css_vid.css"
+		],
+		"srcJS": [
+		  "_js/lib/js_superTween.min.js",
+			"_js/js_adMain.js",
+			"_js/js_timeline.js",
+		  "_js/js_utils.js",
+			"_js/js_dateLogic.js",
+			"_js/js_ftVid.js"
+		],
+		"manualCopy": [
+		]
+	}
+}
